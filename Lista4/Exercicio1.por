@@ -1,40 +1,42 @@
+/*
+ 1 - Escreva uma função que recebe 2 números e calcule a média entre eles :
+
+Exemplo de entrada:
+Digite o primeiro número: 2 Digite o segundo número : 6
+
+Saída esperada:
+A média é : 4
+ */
 
 programa
 {
 	
-/*5 - Escreva um programa que verifique se um número é um palíndromo ou não.*/
-	
 	funcao inicio()
 	{
-		inteiro numero
-		inteiro i=0
-	
+		inteiro n1, n2
 		
 		escreva("Digite um numero: ")
-		leia(numero)
-	     inteiro auxiliar = numero
-		enquanto(auxiliar!=0){
-	 		i=i*10 + auxiliar % 10
-	 		auxiliar=auxiliar/10
-	 	}
-		se(i==numero){
-			escreva(numero," é um numero políndromo  ")
-		}
-		senao{
-			escreva(numero," não é um numero políndromo  ")
-		}
-			
-	
-	}
-	
-}
+		leia(n1)
 
+		escreva("Digite o segundos numero: ")
+		leia(n2)
+
+		escreva("A media e: ", media(n1, n2))
+
+		
+	}
+
+	funcao inteiro media(inteiro num1, inteiro num2)
+	{
+		retorne (num1+num2)/2
+	}
+}
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 450; 
+ * @POSICAO-CURSOR = 317; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
