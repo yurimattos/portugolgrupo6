@@ -8,7 +8,7 @@ ALUNO: RAFAEL FELIPE
 
 programa {
 	
-    const inteiro ALUNOS = 2
+    const inteiro ALUNOS = 10
     const inteiro NOTAS = 2
     
 	funcao inicio() {
